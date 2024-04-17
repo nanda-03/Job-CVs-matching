@@ -72,15 +72,3 @@ def remove_stopwords(text):
 
     return filtered_text
 
-
-
-if __name__ == "__main__":
-    footballers_goals = {'Eusebio': 120, 'Cruyff': 104, 'Pele': 150, 'Ronaldo': 132, 'Messi': 125, 'KDB': 59, 'Benzema': 89, 'Etoo': 80, 'Milla': 91}
-
-    print(closest(footballers_goals, 100, 3))
-
-    with open("/home/mila/b/brice.nanda/rudi/data/new.txt", 'r') as file:
-            text = file.readlines()
-            file.close()
-    
-    print(text)
